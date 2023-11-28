@@ -24,7 +24,7 @@ data_summary <- data %>%
   )
 renv::deactivate()
 renv::activate()
-
+renv::restore()
 renv::snapshot()
 
 renv::view_libraries()
@@ -52,7 +52,16 @@ data2 <- data.frame(
 
 install.packages("usethis")
 
-library(usethis)
+#library(usethis)
+#create_github_token()
+
+library(gitcreds)
+
+
+
+
+
+
 
 
 

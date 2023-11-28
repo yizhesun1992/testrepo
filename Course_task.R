@@ -55,9 +55,9 @@ install.packages("usethis")
 #library(usethis)
 #create_github_token()
 
-library(gitcreds)
+#library(gitcreds)
 
-
+gitcreds_set()
 
 
 

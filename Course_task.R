@@ -44,3 +44,9 @@ data <- data.frame(
 
 
 
+set.seed(458)
+data2 <- data.frame(
+  x = rnorm(100),
+  category = sample(c("A", "B", "C"), 100, replace = TRUE)
+) %>% mutate(y = 2 * x + rnorm(100))
+

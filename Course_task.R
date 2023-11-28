@@ -50,3 +50,10 @@ data2 <- data.frame(
   category = sample(c("A", "B", "C"), 100, replace = TRUE)
 ) %>% mutate(y = 2 * x + rnorm(100))
 
+install.packages("usethis")
+
+
+
+
+
+

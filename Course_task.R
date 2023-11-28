@@ -52,7 +52,7 @@ data2 <- data.frame(
 
 install.packages("usethis")
 
-
+library(usethis)
 
 
 

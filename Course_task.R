@@ -36,7 +36,11 @@ library(ggplot2)
 install.packages("janitor")
 library(janitor)
 
-
+set.seed(457)
+data <- data.frame(
+  x = rnorm(100),
+  category = sample(c("A", "B", "C"), 100, replace = TRUE)
+) %>% mutate(y = 2 * x + rnorm(100))
 
 
 

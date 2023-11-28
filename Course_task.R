@@ -33,7 +33,8 @@ renv::lockfile_read()
 
 
 library(ggplot2)
-
+install.packages("janitor")
+library(janitor)
 
 
 
